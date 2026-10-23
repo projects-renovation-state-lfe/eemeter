@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1.7
-FROM ghcr.io/astral-sh/uv:0.13.0@sha256:cdc6093146eb3ff6a40107b38f008b789e050e77ad87865e381d9917da55a168 AS uv
+FROM ghcr.io/astral-sh/uv:0.13.5@sha256:32a7bb39b496babbd997b0a39a4d66c126bdaf5661b302bf6f06abda8deca6ff AS uv
 FROM python:3.14-slim AS app
 
 # System deps for building native wheels
